@@ -2,8 +2,8 @@ import { GoogleGenAI } from "@google/genai";
 
 // Standard implementation for Gemini API service following @google/genai guidelines.
 export const generateVibeResponse = async (prompt: string): Promise<string> => {
-  // Always initialize GoogleGenAI with a named parameter object and direct process.env reference.
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  // Always initialize GoogleGenAI with a named parameter object and direct import.meta.env reference.
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
   
   try {
     const response = await ai.models.generateContent({
