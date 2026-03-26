@@ -1,12 +1,13 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Personal Portfolio
 
-# Portfolio
+A modern, interactive personal portfolio website built with React, Vite, and Framer Motion. This portfolio showcases my projects, skills, and provides a seamless way to get in touch.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1khFMMxYBNsvbhNxPp3QzQnTyDH-C3kr3
+- **Interactive UI**: Smooth animations and page transitions using `framer-motion`.
+- **Contact Form**: Integrated with EmailJS for direct communication.
+- **AI Integration**: Powered by Google GenAI for smart interactions.
+- **Responsive Design**: Fully responsive layout that looks great on all devices.
 
 ## Manual Deployment
 
